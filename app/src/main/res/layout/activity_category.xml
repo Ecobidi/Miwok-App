@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category_numbers"
+        android:text="@string/category_numbers"
+        style="@style/CategoryStyle"
+        android:minHeight="@dimen/list_item_height"
+        android:background="@color/category_numbers"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category_family"
+        android:text="@string/category_family"
+        style="@style/CategoryStyle"
+        android:minHeight="@dimen/list_item_height"
+        android:background="@color/category_family"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category_colors"
+        android:text="@string/category_colors"
+        style="@style/CategoryStyle"
+        android:minHeight="@dimen/list_item_height"
+        android:background="@color/category_colors"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category_phrases"
+        android:text="@string/category_phrases"
+        style="@style/CategoryStyle"
+        android:minHeight="@dimen/list_item_height"
+        android:background="@color/category_phrases"
+        />
+
+</LinearLayout>
